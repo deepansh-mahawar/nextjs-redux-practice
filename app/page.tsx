@@ -8,6 +8,8 @@ import { Cart } from "./features/Cart";
 import { UserList } from "./features/UserList";
 import { useEffect, useState } from "react";
 import UserData from "./features/UserData";
+import Content from "./features/Content";
+import Sidebar from "./features/Sidebar";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       {/* <Cart/> */}
       {/* <UserList /> */}
       {/* <UserData/> */}
+      <Sidebar />
+      <Content />
     </div>
   );
 }

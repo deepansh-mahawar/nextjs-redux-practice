@@ -4,6 +4,7 @@ import lightReducer from "./slices/lightSlice";
 import foodReducer from "./slices/foodSlice";
 import cartReducer from "./slices/cartSlice";
 import usersReducer from "./slices/usersSlice";
+import postReducer from "./slices/postSlice";
 
 export const store = configureStore({
   reducer: {
@@ -12,6 +13,7 @@ export const store = configureStore({
     food: foodReducer,
     cart: cartReducer,
     users: usersReducer,
+    posts: postReducer,
   },
 });
 
